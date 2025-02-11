@@ -1,2 +1,2 @@
 # Desafio-CSS
-Desafio CSS da disciplica TecWeb
+Desafio CSS da disciplina TecWeb
