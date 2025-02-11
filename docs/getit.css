@@ -43,14 +43,26 @@ html, body {
   flex-direction: column;
 }
 
-.form-card-title, .autoresize {
+.form-card-title {
   border: none;
   padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
   border-radius: 4px;
   outline: none;
-  width: 100%;
+  width: 300px; /* Largura fixa */
+  height: 40px; /* Altura fixa do campo de título */
+}
+
+.autoresize {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  outline: none;
+  width: 300px; /* Largura fixa */
+  resize: none; /* Impede o redimensionamento manual */
 }
 
 .btn {
