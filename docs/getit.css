@@ -88,15 +88,31 @@ html, body {
 .card:nth-child(10) { grid-column: 5; }
 
 /* Estilo dos Cards */
+/* Estilo dos Cards */
 .card {
   padding: 15px;
   border-radius: 8px;
   width: 180px;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   font-family: 'Permanent Marker', cursive;
-  transform: rotate(calc(var(--rotation) * 1deg));
   text-align: center;
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
 }
+
+/* Adiciona pequenas variações de ângulo nos cards */
+.card-rotation-1 { transform: rotate(-3deg); }
+.card-rotation-2 { transform: rotate(2deg); }
+.card-rotation-3 { transform: rotate(-5deg); }
+.card-rotation-4 { transform: rotate(4deg); }
+.card-rotation-5 { transform: rotate(-2deg); }
+.card-rotation-6 { transform: rotate(6deg); }
+.card-rotation-7 { transform: rotate(-4deg); }
+.card-rotation-8 { transform: rotate(3deg); }
+.card-rotation-9 { transform: rotate(-1deg); }
+.card-rotation-10 { transform: rotate(5deg); }
+.card-rotation-11 { transform: rotate(0deg); }
+
 
 .card:nth-child(odd) {
   --rotation: -5;
