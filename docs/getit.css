@@ -116,13 +116,8 @@ html, body {
 }
 
 /* Cores dos Cards */
-.card:nth-child(1) { background-color: #fae890; }
-.card:nth-child(2) { background-color: #ef89ba; }
-.card:nth-child(3) { background-color: #9de0f5; }
-.card:nth-child(4) { background-color: #fae890; }
-.card:nth-child(5) { background-color: #abe9c1; }
-.card:nth-child(6) { background-color: #ead3a7; }
-.card:nth-child(7) { background-color: #ef89ba; }
-.card:nth-child(8) { background-color: #abe9c1; }
-.card:nth-child(9) { background-color: #fae890; }
-.card:nth-child(10) { background-color: #ef89ba; }
+.card-color-1 { background-color: #fae890; }
+.card-color-2 { background-color: #ef89ba; }
+.card-color-3 { background-color: #9de0f5; }
+.card-color-4 { background-color: #abe9c1; }
+.card-color-5 { background-color: #ead3a7; }
